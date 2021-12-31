@@ -92,7 +92,7 @@ Screen = B/w 768px to 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) {
     	/* hero */
 	body{
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
     .content {
 		width: 100%;
