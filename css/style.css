@@ -79,6 +79,9 @@
 }
 .logo {
 	color: #fff;
+    position: absolute;
+    top: 0%;
+    right: 10%;
 }
 .container {
 	max-width: 83rem;
@@ -100,6 +103,7 @@
 	outline: none;
 	color: #fff;
 	background:  #8A2BE2;
+    width: 100%;
 }
 .navbar .wrapper {
 	display: flex;
