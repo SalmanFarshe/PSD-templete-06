@@ -79,9 +79,6 @@
 }
 .logo {
 	color: #fff;
-    position: absolute;
-    top: 0%;
-    right: 10%;
 }
 .container {
 	max-width: 83rem;
@@ -91,11 +88,10 @@
 	padding: 0 2rem;
 }
 .navbar {
-	max-width: 100%;
 	z-index: 999999;
-    position: fixed;
+    position: absolute;
     top: 0%;
-    right: 0%;
+    right: 10%;
     height: auto;
 	margin: 0 auto;
 	padding: 0.75rem 0;
@@ -103,13 +99,13 @@
 	outline: none;
 	color: #fff;
 	background:  #8A2BE2;
-    width: 100%;
+    width: 40%;
 }
 .navbar .wrapper {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: end;
 	align-items: center;
 	width: 100%;
 	height: auto;
@@ -183,8 +179,10 @@
 	text-rendering: optimizeLegibility;
 	transition: all 0.35s ease-in-out;
 }
-
-@media only screen and (max-width: 768px) {
+.menu-item{
+    list-style-type: none;
+}
+@media only screen and (max-width: 1268px) {
 	.navbar .burger {
 		display: block;
 		opacity: 1;
