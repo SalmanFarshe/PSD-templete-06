@@ -6,7 +6,7 @@
 	font-family: "Poppins", sans-serif;
 }
 body{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 /* common styles */
 .content_wrap {
